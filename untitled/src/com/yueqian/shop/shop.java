@@ -10,4 +10,8 @@ public class shop {
     void fun(){
         System.out.println("购物完成");
     }
+
+    void fun2(){
+        System.out.println("!");
+    }
 }
