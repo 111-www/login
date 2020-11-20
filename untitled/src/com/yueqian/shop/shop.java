@@ -1,5 +1,7 @@
 package com.yueqian.shop;
 
+import org.junit.Test;
+
 public class shop {
     private int a =1;
 
@@ -11,7 +13,11 @@ public class shop {
         System.out.println("购物完成");
     }
 
-    void fun2(){
-        System.out.println("!");
+    @Test
+    public void fun2(){
+        int a = 2;
+        int b = 3;
+        int c=(a+b>5?a++:++b);
+        System.out.println(c);
     }
 }
